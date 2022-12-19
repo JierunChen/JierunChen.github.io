@@ -134,8 +134,8 @@ name {
 }
 
 .one {
-  width: 130px;
-  height: 130px;
+  width: 160px;
+  height: 160px;
   position: relative;
 }
 
@@ -167,9 +167,15 @@ name {
 }
 
 img.pub_img {
-  width: 160px;
+  width: 100%;
 }
 
 span.highlight {
   background-color: #ffffd0;
+}
+
+img.profile_img {
+  width:100%;
+  max-width:100%;
+  box-shadow: 8px 8px 10px #aaa;
 }
