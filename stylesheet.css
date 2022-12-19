@@ -155,7 +155,7 @@ name {
 }
 
 .pub_left {
-  padding:20px;
+  padding:min(20px, 5%);
   width:25%;
   max-width:30%;
   vertical-align:top;
