@@ -163,11 +163,12 @@ name {
 .pub_right {
   padding:20px;
   width:75%;
-  vertical-align:middle;
+  vertical-align:top;
 }
 
 img.pub_img {
-  width: 160px;
+  /* width: 160px; */
+  width: 100%;
 }
 
 span.highlight {
