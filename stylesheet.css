@@ -112,18 +112,6 @@ a {
   font-size: 16px
 }
 
-.pub_left {
-  padding:20px;
-  width:25%;
-  vertical-align:middle;
-}
-
-.pub_right {
-  padding:20px;
-  width:75%;
-  vertical-align:middle;
-}
-
 strong {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 16px;
@@ -166,10 +154,46 @@ name {
   -webkit-transition: opacity .2s ease-in-out;
 }
 
+.pub_left {
+  padding:20px;
+  width:25%;
+  vertical-align:middle;
+}
+
+.pub_right {
+  padding:20px;
+  width:75%;
+  vertical-align:middle;
+}
+
 img.pub_img {
   width: 160px;
 }
 
 span.highlight {
   background-color: #ffffd0;
+}
+
+.mobile {display:none;}
+.desktop {display:block;}
+
+@media only screen and (max-width:800px){
+  .pub_left {
+    /* padding:20px; */
+    width:100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .pub_right {
+    /* padding:20px; */
+    width:100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .desktop {display:none;}
+  .mobile {display:block;}
 }
