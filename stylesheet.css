@@ -175,7 +175,7 @@ span.highlight {
 }
 
 .mobile {display:none;}
-.desktop {display:block;}
+.desktop {display:inline-block;}
 
 /* @media only screen and (max-width:800px){
   .pub_left {
