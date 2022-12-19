@@ -157,6 +157,7 @@ name {
 .pub_left {
   padding:20px;
   width:25%;
+  max-width:30%;
   vertical-align:top;
 }
 
@@ -167,8 +168,7 @@ name {
 }
 
 img.pub_img {
-  /* width: 160px; */
-  width: 100%;
+  width: 160px;
 }
 
 span.highlight {
