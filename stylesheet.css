@@ -177,9 +177,8 @@ span.highlight {
 .mobile {display:none;}
 .desktop {display:block;}
 
-@media only screen and (max-width:800px){
+/* @media only screen and (max-width:800px){
   .pub_left {
-    /* padding:20px; */
     width:100%;
     display: block;
     margin-left: auto;
@@ -187,7 +186,6 @@ span.highlight {
   }
 
   .pub_right {
-    /* padding:20px; */
     width:100%;
     display: block;
     margin-left: auto;
@@ -196,4 +194,4 @@ span.highlight {
 
   .desktop {display:none;}
   .mobile {display:block;}
-}
+} */
