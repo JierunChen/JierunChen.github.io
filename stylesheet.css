@@ -179,6 +179,6 @@ span.highlight {
 }
 
 img.profile_img {
-  width:220px;
+  width:min(220px, 100%);
   box-shadow: 8px 8px 10px #aaa;
 }
