@@ -167,7 +167,7 @@ name {
 }
 
 img.pub_img {
-  width: 100%;
+  width: 160px;
 }
 
 span.highlight {
@@ -175,7 +175,6 @@ span.highlight {
 }
 
 img.profile_img {
-  width:100%;
-  max-width:100%;
+  width:220px;
   box-shadow: 8px 8px 10px #aaa;
 }
