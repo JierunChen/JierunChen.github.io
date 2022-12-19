@@ -92,6 +92,16 @@ a:hover {
   text-decoration: none;
 }
 
+table {
+  width:100%;
+  max-width:1000px;
+  border:0px;
+  border-spacing:0px;
+  border-collapse:separate;
+  margin-right:auto;
+  margin-left:auto;
+}
+
 body,
 td,
 th,
@@ -100,6 +110,18 @@ p,
 a {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 16px
+}
+
+.pub_left {
+  padding:20px;
+  width:25%;
+  vertical-align:middle;
+}
+
+.pub_right {
+  padding:20px;
+  width:75%;
+  vertical-align:middle;
 }
 
 strong {
@@ -142,6 +164,10 @@ name {
   transition: opacity .2s ease-in-out;
   -moz-transition: opacity .2s ease-in-out;
   -webkit-transition: opacity .2s ease-in-out;
+}
+
+img.pub_img {
+  width: 160px;
 }
 
 span.highlight {
