@@ -134,8 +134,8 @@ name {
 }
 
 .one {
-  width: 160px;
-  height: 160px;
+  width: 130px;
+  height: 130px;
   position: relative;
 }
 
@@ -157,7 +157,7 @@ name {
 .pub_left {
   padding:20px;
   width:25%;
-  vertical-align:middle;
+  vertical-align:top;
 }
 
 .pub_right {
@@ -174,8 +174,8 @@ span.highlight {
   background-color: #ffffd0;
 }
 
-.mobile {display:none;}
-.desktop {display:inline-block;}
+/* .mobile {display:none;}
+.desktop {display:inline-block;} */
 
 /* @media only screen and (max-width:800px){
   .pub_left {
