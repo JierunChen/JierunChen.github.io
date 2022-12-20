@@ -154,7 +154,7 @@ name {
   -webkit-transition: opacity .2s ease-in-out;
 }
 
-.pub_left {
+td.pub_left {
   padding-top: 20px;
   padding-right: 5px;
   padding-bottom: 20px;
@@ -164,10 +164,23 @@ name {
   vertical-align:top;
 }
 
-.pub_right {
+td.pub_right {
   padding:20px;
   width:75%;
   vertical-align:top;
+}
+
+td.profile_left {
+  padding:2.5%;
+  width:30%;
+  max-width:30%;
+  /* vertical-align:middle; */
+}
+
+td.profile_right {
+  padding:2.5%;
+  /* width:70%; */
+  vertical-align:middle;
 }
 
 img.pub_img {
@@ -181,4 +194,23 @@ span.highlight {
 img.profile_img {
   width:min(220px, 100%);
   box-shadow: 8px 8px 10px #aaa;
+}
+
+
+/*normal mode*/
+#desktop {
+  display: block;
+}
+#phone {
+  display: none;
+}
+
+/*mobile mode*/
+@media only screen and (max-width: 500px) {
+  #desktop {
+      display: none;
+  }
+  #phone {
+      display: block;
+  }
 }
