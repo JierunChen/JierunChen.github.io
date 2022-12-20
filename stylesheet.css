@@ -191,11 +191,6 @@ img.pub_img {
   width: 160px;
 }
 
-div.profile_img {
-  width: 220px;
-  position: relative;
-}
-
 img.profile_img {
   width:220px;
   box-shadow: 8px 8px 10px #aaa;
