@@ -159,19 +159,19 @@ span.highlight {
 }
 
 td.pub_left {
-  padding-top: 20px;
+  padding-top: min(20px,2%);
   padding-bottom: 20px;
   padding-left: min(20px,2%);
   padding-right: 5px;
   width:25%;
-  max-width:30%;
+  max-width:25%;
   vertical-align:top;
 }
 
 td.pub_right {
   padding:min(20px,2%);
   width:75%;
-  vertical-align:middle;
+  vertical-align:top;
 }
 
 td.profile_left {
