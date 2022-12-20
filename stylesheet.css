@@ -188,7 +188,7 @@ td.profile_right {
 }
 
 img.pub_img {
-  width: 160px;
+  width: min(160px, 100%);
 }
 
 img.profile_img_left {
