@@ -199,7 +199,7 @@ img.profile_img {
 
 /*normal mode*/
 .desktop {
-  display: block;
+  display: table-cell;
 }
 .phone {
   display: none;
@@ -211,6 +211,6 @@ img.profile_img {
       display: none;
   }
   .phone {
-      display: block;
+      display: table-cell;
   }
 }
