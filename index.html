@@ -157,29 +157,29 @@
         </td>
       </tr>
 
-      <tr onmouseout="CP-NeRF_stop()" onmouseover="CP-NeRF_start()">
-        <td style="padding:20px;width:25%;vertical-align:middle">
+      <tr onmouseout="CPNeRF_stop()" onmouseover="CPNeRF_start()">
+        <td class="pub_left">
           <div class="one">
-            <div class="two" id='CP-NeRF_image'><video  width=100% height=100% >
+            <div class="two" id='CPNeRF_image'><video  width=100% height=100% >
             <source src="images/CP-NeRF.mp4" type="video/mp4">
             Your browser does not support the video tag.
             </video></div>
-            <img src='images/CP-NeRF.jpg' width="160">
+            <img src='images/CP-NeRF.jpg'  class="pub_img">
           </div>
           <script type="text/javascript">
-            function CP-NeRF_start() {
-              document.getElementById('CP-NeRF_image').style.opacity = "1";
+            function CPNeRF_start() {
+              document.getElementById('CPNeRF_image').style.opacity = "1";
             }
 
-            function CP-NeRF_stop() {
-              document.getElementById('CP-NeRF_image').style.opacity = "0";
+            function CPNeRF_stop() {
+              document.getElementById('CPNeRF_image').style.opacity = "0";
             }
-            CP-NeRF_stop()
+            CPNeRF_stop()
           </script>
         </td>
-        <td style="padding:20px;width:75%;vertical-align:middle">
+        <td class="pub_right">
           <a href="">
-            <span class="papertitle">CP-NeRF: Conditionally Parameterized Neural Radiance Fields for Cross-scene Novel View Synthesis</span>
+            <papertitle>CP-NeRF: Conditionally Parameterized Neural Radiance Fields for Cross-scene Novel View Synthesis</papertitle>
           </a>
 	  <br>
           He Hao, Liang Yixun, Xiao, Shishi, <strong>Jierun Chen</strong>, Chen Yingcong</a>
@@ -187,7 +187,6 @@
           <em>The 31th Pacific Conference on Computer Graphics and Applications (Pacific Graphics), 2023</em>
           <br>
           <a>paper and code coming soon</a>
-          <p></p>
           <p>
           We propose CP-NeRF to enable training a one-for-all NeRF across diverse scenes.
           </p>
